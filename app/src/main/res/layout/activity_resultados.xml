@@ -439,7 +439,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="contato@caspedesbourncoadvogados.com.br"
+                android:text="contato@cespedeslourencoadvogados.com.br"
                 android:textColor="@color/blue"
                 android:textSize="14sp"
                 android:autoLink="email"
