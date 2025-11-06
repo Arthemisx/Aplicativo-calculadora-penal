@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="br.com.android.calculadorapenal">
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraPenal">
+
+        <!-- Tela de Entrada -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,6 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Tela Logo -->
+        <activity
+            android:name=".LogoActivity"
+            android:exported="false" />
+
+        <!-- Tela Login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Tela DadosCrime -->
+        <activity
+            android:name=".DadosCrimeActivity"
+            android:exported="false" />
+
+        <!-- Tela Resultados-->
+        <activity
+            android:name=".ResultadosActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

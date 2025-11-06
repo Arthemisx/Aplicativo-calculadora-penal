@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CalculadoraPenal</string>
+    <string name="continuar_sem_login">Continuar sem login</string>
+    <string name="calculadora_penal">Calculadora Penal</string>
 </resources>
